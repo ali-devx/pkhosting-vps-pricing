@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PKHosting VPS Hosting — plans built for Pakistan</title>
+<meta name="description" content="VPS hosting plans from PKHosting: Starter, Growth, Scale and Dedicated Core. Monthly or annual billing, PKR/USD/GBP pricing.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">PKHosting <span class="brand-sub">VPS</span></a>
+    <nav aria-label="Primary">
+      <a href="#pricing">Pricing</a>
+      <a href="#compare">Compare plans</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section id="top" class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <h1>VPS servers built for Pakistan&rsquo;s builders.</h1>
+        <p class="hero-sub">Root access, NVMe storage and predictable rupee pricing — deployed on infrastructure tuned for low latency across Pakistan. Scale from a side project to a production fleet without changing hosts.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#pricing">Deploy a VPS</a>
+          <a class="btn btn-ghost" href="#compare">Compare specs</a>
+        </div>
+      </div>
+      <div class="hero-stat-card">
+        <dl>
+          <div class="stat">
+            <dt>Uptime SLA</dt>
+            <dd>99.9%</dd>
+          </div>
+          <div class="stat">
+            <dt>Provisioning time</dt>
+            <dd>&lt; 5 min</dd>
+          </div>
+          <div class="stat">
+            <dt>Storage</dt>
+            <dd>NVMe SSD</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section" aria-labelledby="pricing-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="pricing-heading">Choose your plan</h2>
+        <p class="section-sub">Four VPS tiers, priced in Pakistani Rupees. Switch billing period or currency — your choice is remembered on this device.</p>
+      </div>
+
+      <div class="controls-bar">
+        <fieldset class="billing-toggle">
+          <legend class="visually-hidden">Billing period</legend>
+          <label class="toggle-option">
+            <input type="radio" name="billing" value="monthly" checked>
+            <span>Monthly</span>
+          </label>
+          <label class="toggle-option">
+            <input type="radio" name="billing" value="annual">
+            <span>Annually <em class="save-hint">2 months free</em></span>
+          </label>
+        </fieldset>
+
+        <div class="currency-field">
+          <label for="currency">Currency</label>
+          <select id="currency" name="currency">
+            <option value="PKR" selected>PKR — Pakistani Rupee</option>
+            <option value="USD">USD — US Dollar</option>
+            <option value="GBP">GBP — British Pound</option>
+          </select>
+        </div>
+      </div>
+
+      <p id="price-status" class="visually-hidden" role="status" aria-live="polite"></p>
+
+      <div class="pricing-grid">
+
+        <article class="plan-card" data-plan="Starter" data-monthly-pkr="2400">
+          <div class="plan-head">
+            <h3>Starter</h3>
+            <p class="plan-tagline">A first project or personal site.</p>
+          </div>
+          <p class="plan-price">
+            <span class="price-figure">Rs 2,400</span><span class="price-unit">/mo</span>
+          </p>
+          <p class="plan-annual-detail" hidden></p>
+          <ul class="plan-features">
+            <li>1 vCPU core</li>
+            <li>1 GB RAM</li>
+            <li>20 GB NVMe SSD</li>
+            <li>1 TB bandwidth</li>
+          </ul>
+          <button type="button" class="btn btn-card">Deploy Starter</button>
+        </article>
+
+        <article class="plan-card plan-card--popular" data-plan="Growth" data-monthly-pkr="4800">
+          <p class="badge-popular">Most popular</p>
+          <div class="plan-head">
+            <h3>Growth</h3>
+            <p class="plan-tagline">Small business sites and apps.</p>
+          </div>
+          <p class="plan-price">
+            <span class="price-figure">Rs 4,800</span><span class="price-unit">/mo</span>
+          </p>
+          <p class="plan-annual-detail" hidden></p>
+          <ul class="plan-features">
+            <li>2 vCPU cores</li>
+            <li>4 GB RAM</li>
+            <li>60 GB NVMe SSD</li>
+            <li>3 TB bandwidth</li>
+          </ul>
+          <button type="button" class="btn btn-card">Deploy Growth</button>
+        </article>
+
+        <article class="plan-card" data-plan="Scale" data-monthly-pkr="9600">
+          <div class="plan-head">
+            <h3>Scale</h3>
+            <p class="plan-tagline">Growing traffic, multiple services.</p>
+          </div>
+          <p class="plan-price">
+            <span class="price-figure">Rs 9,600</span><span class="price-unit">/mo</span>
+          </p>
+          <p class="plan-annual-detail" hidden></p>
+          <ul class="plan-features">
+            <li>4 vCPU cores</li>
+            <li>8 GB RAM</li>
+            <li>120 GB NVMe SSD</li>
+            <li>6 TB bandwidth</li>
+          </ul>
+          <button type="button" class="btn btn-card">Deploy Scale</button>
+        </article>
+
+        <article class="plan-card" data-plan="Dedicated Core" data-monthly-pkr="19500">
+          <div class="plan-head">
+            <h3>Dedicated Core</h3>
+            <p class="plan-tagline">Production workloads at scale.</p>
+          </div>
+          <p class="plan-price">
+            <span class="price-figure">Rs 19,500</span><span class="price-unit">/mo</span>
+          </p>
+          <p class="plan-annual-detail" hidden></p>
+          <ul class="plan-features">
+            <li>8 vCPU cores</li>
+            <li>16 GB RAM</li>
+            <li>240 GB NVMe SSD</li>
+            <li>10 TB bandwidth</li>
+          </ul>
+          <button type="button" class="btn btn-card">Deploy Dedicated Core</button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="compare" class="section" aria-labelledby="compare-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="compare-heading">Compare all plans</h2>
+        <p class="section-sub">Every spec, side by side. Scroll the table horizontally on narrow screens.</p>
+      </div>
+
+      <div class="table-scroll" tabindex="0" role="region" aria-labelledby="compare-heading">
+        <table>
+          <caption class="visually-hidden">Full specification comparison of Starter, Growth, Scale and Dedicated Core VPS plans</caption>
+          <thead>
+            <tr>
+              <th scope="col">Specification</th>
+              <th scope="col">Starter</th>
+              <th scope="col">Growth</th>
+              <th scope="col">Scale</th>
+              <th scope="col">Dedicated Core</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">vCPU cores</th>
+              <td>1</td><td>2</td><td>4</td><td>8</td>
+            </tr>
+            <tr>
+              <th scope="row">RAM</th>
+              <td>1 GB</td><td>4 GB</td><td>8 GB</td><td>16 GB</td>
+            </tr>
+            <tr>
+              <th scope="row">NVMe SSD storage</th>
+              <td>20 GB</td><td>60 GB</td><td>120 GB</td><td>240 GB</td>
+            </tr>
+            <tr>
+              <th scope="row">Bandwidth</th>
+              <td>1 TB</td><td>3 TB</td><td>6 TB</td><td>10 TB</td>
+            </tr>
+            <tr>
+              <th scope="row">Dedicated IPv4</th>
+              <td>1</td><td>1</td><td>2</td><td>4</td>
+            </tr>
+            <tr>
+              <th scope="row">Operating systems</th>
+              <td>Linux</td><td>Linux &amp; Windows</td><td>Linux &amp; Windows</td><td>Linux &amp; Windows</td>
+            </tr>
+            <tr>
+              <th scope="row">Backups</th>
+              <td>Weekly</td><td>Daily</td><td>Daily + snapshots</td><td>Hourly snapshots</td>
+            </tr>
+            <tr>
+              <th scope="row">Control panel</th>
+              <td>SSH only</td><td>cPanel (add-on)</td><td>cPanel included</td><td>cPanel or Plesk included</td>
+            </tr>
+            <tr>
+              <th scope="row">Support level</th>
+              <td>Email, business hours</td><td>Live chat, priority</td><td>24/7 priority</td><td>24/7 dedicated engineer</td>
+            </tr>
+            <tr>
+              <th scope="row">Uptime SLA</th>
+              <td>99.9%</td><td>99.9%</td><td>99.95%</td><td>99.99%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section" aria-labelledby="faq-heading">
+    <div class="wrap wrap-narrow">
+      <div class="section-head">
+        <h2 id="faq-heading">Frequently asked questions</h2>
+      </div>
+
+      <div class="faq-list">
+        <details>
+          <summary>Can I move to a bigger plan later?</summary>
+          <p>Yes. You can upgrade from Starter through to Dedicated Core at any time. Resources are added to your existing server, so there&rsquo;s no need to reinstall or migrate your data.</p>
+        </details>
+        <details>
+          <summary>What happens when my annual term ends?</summary>
+          <p>Your server renews automatically at the same annual rate unless you cancel. We&rsquo;ll email a reminder 14 days before renewal so there are no surprises.</p>
+        </details>
+        <details>
+          <summary>Do you offer a money-back guarantee?</summary>
+          <p>All plans include a 7-day money-back window from first activation, covering both monthly and annual billing.</p>
+        </details>
+        <details>
+          <summary>Which payment methods do you accept?</summary>
+          <p>See the full list in the footer below. We support local mobile wallets, bank transfer and international cards so you can pay however suits you best.</p>
+        </details>
+        <details>
+          <summary>Is server management included?</summary>
+          <p>Starter and Growth are self-managed with optional add-ons. Scale and Dedicated Core include priority and dedicated support respectively, covering OS-level troubleshooting.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <p class="brand">PKHosting <span class="brand-sub">VPS</span></p>
+        <p class="footer-note">Demo pricing page built for a hiring assessment. Plans, prices and specs are invented and nothing here is a live commercial offer.</p>
+      </div>
+      <div class="footer-payments">
+        <h3>Payment methods</h3>
+        <ul class="payment-list">
+          <li>Visa / Mastercard</li>
+          <li>Easypaisa</li>
+          <li>JazzCash</li>
+          <li>Bank transfer (IBFT)</li>
+          <li>PayPal</li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright">&copy; 2026 PKHosting (demo). All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
